@@ -1,9 +1,29 @@
+:root {
+  --dark-background: #11181e;
+  --dark-blue: #1c2946;
+  --light-blue: #2a569d;
+  --shade: hsla(0, 0%, 0%, 0.4);
+
+  --water: hsla(209, 55%, 53%, 1);
+  --nature: hsla(146, 64%, 63%, 1);
+  --air: hsla(191, 61%, 67%, 1);
+  --earth: hsla(12, 38%, 57%, 1);
+  --dark: hsla(287, 65%, 60%, 1);
+  --fire: hsla(6, 73%, 50%, 1);
+  --light: hsla(152, 88%, 94%, 1);
+  --electric: hsla(46, 82%, 64%, 1);
+  --normal: hsla(0, 0%, 93%, 1);
+
+  --font-family: Dogica;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Dogica;
+  color: white;
+  background-color: var(--dark-background);
 }
 
 a {
